@@ -1,0 +1,36 @@
+{
+    "name": "eupago/omnipay-eupago-multibanco",
+    "type": "library",
+    "description": "Eupago - pagamento por multibanco",
+    "keywords": [
+        "Eupago",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+		"multibanco"
+    ],
+    "homepage": "https://github.com/eupago/omnipay-eupago-multibanco",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "marciopereira00",
+            "email": "marciopereira00@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\eupago\\" : "src/" }
+    },
+    "require": {
+         "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
