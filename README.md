@@ -1,6 +1,6 @@
 # Eupago - Multibanco for omnipay
 
-**This is the Eupago solution for omnipay gateway +**
+**This is the Eupago solution for omnipay payment processing library**
 
 Eupago is one Portuguese payment method that allows the customer to pay by bank reference.
 For use it you need create one account in [Eupago](http://www.eupago.pt/) website.
