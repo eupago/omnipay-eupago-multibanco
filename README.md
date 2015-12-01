@@ -12,12 +12,12 @@ For instalation details please check the [omnipay](https://github.com/thephpleag
 
 
 ## Required fields
-<p>
+
 apiKey -> to generate your api key please [create an account](https://eupago.pt/registo) on our website</br>
 currency -> currency is required and must be 'EUR' or '€'</br>
 ammount -></br>
 transactionId -> transactionId (normaly this is the orderId number)</br>
-</p>
+
 
 ## Example 
 
