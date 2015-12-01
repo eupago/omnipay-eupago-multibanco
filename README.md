@@ -8,16 +8,16 @@ Once installed and configured you are able to use all the features of our [API](
 
 ## Instalation
 
-For instalation details please check the [omnipay](https://github.com/thephpleague/omnipay), git page.
+For instalation details please check the [omnipay](https://github.com/thephpleague/omnipay#installation) git page.
 
 
 ## Required fields
-
-apiKey -> you need to register in eupago website for generate your apiKey
-currency -> currency is required and must be 'EUR' or '€'
-ammount ->
-transactionId -> transactionId, normaly this is the orderId number
-
+<p>
+apiKey -> you need to register in eupago website for generate your apiKey</br>
+currency -> currency is required and must be 'EUR' or '€'</br>
+ammount -></br>
+transactionId -> transactionId, normaly this is the orderId number</br>
+</p>
 
 ## Example 
 
@@ -31,7 +31,7 @@ $gateway->setApiKey('xxx-xxx-xxx-xxx');
 $gateway->setCurrency('EUR');
 $gateway->setTransactionId('xxxxx');
 
-$response = $gateway->purchase(['amount' => '10.00' ])->send();
+$response = $gateway->purchase(['amount' => '10.00'])->send();
 
 // return the Eupago api response with payment credentials
 // see src/message/response.php methods for more information
