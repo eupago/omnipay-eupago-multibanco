@@ -3,7 +3,7 @@
 **This is the Eupago solution for omnipay gateway +**
 
 Eupago is one Portuguese payment method that allows the customer to pay by bank reference.
-For use it you need create one account in [Eupago](www.eupago.pt) website.
+For use it you need create one account in [Eupago](http://www.eupago.pt/) website.
 Once installed and configured you are able to use all the features of our [API](https://seguro.eupago.pt/api/).
 
 ## Instalation
@@ -13,10 +13,10 @@ For instalation details please check the [omnipay](https://github.com/thephpleag
 
 ## Required fields
 <p>
-apiKey -> you need to register in eupago website for generate your apiKey</br>
+apiKey -> to generate your api key please [create an account](https://eupago.pt/registo) on our website</br>
 currency -> currency is required and must be 'EUR' or '€'</br>
 ammount -></br>
-transactionId -> transactionId, normaly this is the orderId number</br>
+transactionId -> transactionId (normaly this is the orderId number)</br>
 </p>
 
 ## Example 
